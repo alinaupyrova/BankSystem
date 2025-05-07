@@ -1,0 +1,114 @@
+[
+    {
+        "user_id": 1,
+        "username": "Нікіта",
+        "surname": "TEst2",
+        "accounts": [
+            {
+                "account_id": 102,
+                "balance": 120.0,
+                "currency": "USD",
+                "transactions": [
+                    {
+                        "transaction_id": 1,
+                        "amount": 100.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-25T20:59:46.078051"
+                    },
+                    {
+                        "transaction_id": 2,
+                        "amount": 50.0,
+                        "transaction_type": "transfer_to_103",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-25T21:03:01.473927"
+                    },
+                    {
+                        "transaction_id": 3,
+                        "amount": 30.0,
+                        "transaction_type": "withdraw",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-25T21:05:15.389619"
+                    },
+                    {
+                        "transaction_id": 4,
+                        "amount": 100.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-25T21:05:49.592671"
+                    }
+                ]
+            },
+            {
+                "account_id": 103,
+                "balance": 1975.0,
+                "currency": "UAN",
+                "transactions": [
+                    {
+                        "transaction_id": 1,
+                        "amount": 1975.0,
+                        "transaction_type": "transfer_from_102",
+                        "currency": "UAN",
+                        "time_stamp": "2025-04-25T21:03:01.473946"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user_id": 2,
+        "username": "Alice",
+        "surname": "Smith",
+        "accounts": [
+            {
+                "account_id": 101,
+                "balance": 6005.0,
+                "currency": "USD",
+                "transactions": [
+                    {
+                        "transaction_id": 1,
+                        "amount": 1000.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-30T19:32:05.277846"
+                    },
+                    {
+                        "transaction_id": 2,
+                        "amount": 1001.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-30T19:34:42.194807"
+                    },
+                    {
+                        "transaction_id": 3,
+                        "amount": 1001.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-30T19:37:13.198939"
+                    },
+                    {
+                        "transaction_id": 4,
+                        "amount": 1001.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-30T19:39:14.639337"
+                    },
+                    {
+                        "transaction_id": 5,
+                        "amount": 1001.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-30T19:43:39.239642"
+                    },
+                    {
+                        "transaction_id": 6,
+                        "amount": 1001.0,
+                        "transaction_type": "deposit",
+                        "currency": "USD",
+                        "time_stamp": "2025-04-30T19:44:24.761370"
+                    }
+                ]
+            }
+        ]
+    }
+]
