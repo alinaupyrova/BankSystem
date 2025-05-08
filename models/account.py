@@ -3,7 +3,7 @@ from os import access
 from typing import List
 from models.transaction import Transaction
 
-class BankAccount:
+class Bankaccount:
     """
        Represents a bank account with basic operations such as deposit, withdrawal, and transfer.
        Stores a list of transaction history.
